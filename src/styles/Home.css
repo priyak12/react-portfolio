@@ -9,7 +9,7 @@
     width: 100%;
     height: calc(100vh - 100px);
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -33,7 +33,25 @@
     margin: 5px;
     color: white;
   }
-  
+  .profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 1px 0px var(--white);
+    border-radius: 50%;
+    height: 380px;
+    width: 380px;
+    margin: 0 0px 0 100px;
+  }
+  .profile-background {
+    height: 92%;
+    width: 92%;
+    background-image: url("../assets/profile.JPG");
+    background-size: cover;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
   .skills {
     font-size: 35px;
     width: 100%;

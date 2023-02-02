@@ -15,6 +15,10 @@ function Home() {
           <EmailIcon />
           <GithubIcon />
         </div>
+        <div className="profile">
+          <div className="profile-background">
+          </div>
+        </div>
       </div>
       <div className="skills">
         <h1> Skills</h1>
@@ -35,7 +39,7 @@ function Home() {
           </li>
           <li className="item">
             <h2>Languages</h2>
-            <span>JavaScript, Java, Python, C</span>
+            <span>JavaScript, Python, C</span>
           </li>
         </ol>
       </div>
